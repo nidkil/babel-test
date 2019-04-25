@@ -1,8 +1,17 @@
 {
   "name": "babel-test",
-  "version": "1.0.0",
-  "description": "A test to get babel up and running",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "A test to get babel up and running including Webstorm integration",
+  "author": "nidkil",
+  "license": "MIT",
+  "keywords": [
+    "open source",
+    "babel",
+    "webstorm",
+    "node",
+    "npm"
+  ],
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf dist",
@@ -10,8 +19,6 @@
     "serve:dev": "nodemon --exec babel-node src/index",
     "serve:prd": "node dist/index"
   },
-  "author": "nidkil",
-  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
