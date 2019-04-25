@@ -1,0 +1,22 @@
+{
+  "name": "babel-test",
+  "version": "1.0.0",
+  "description": "A test to get babel up and running",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && babel src --out-dir dist --source-maps",
+    "serve:dev": "nodemon --exec babel-node src/index",
+    "serve:prd": "node dist/index"
+  },
+  "author": "nidkil",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/register": "^7.4.0"
+  }
+}

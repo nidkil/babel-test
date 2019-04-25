@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.js"],"names":[],"mappings":";;AAAA;;;;AAEA,sBAAK,mBAAL","sourcesContent":["import test from './test';\r\n\r\ntest('Babel is working!');\r\n"],"file":"index.js"}
